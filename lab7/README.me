@@ -1,0 +1,14 @@
+### Deployemnt
+
+rg="arm-lab7"
+dn="arm-lab7-deployment"
+file="arm-lab7.json"
+parm="azuredeploy.parameters.json"
+
+az group create --name $rg  --location "East US"
+az group deployment create \
+  --name $dn \
+  --resource-group $rg \
+  --template-file $file \
+  --parameters @$parm
+az group delete -n $rg 

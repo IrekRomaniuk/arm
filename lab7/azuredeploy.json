@@ -82,9 +82,9 @@
         }
     },
     "variables": {
-        "keyVaultResourceGroup": "keyVaults",
+        "keyVaultResourceGroup": "cloud-shell-storage-eastus",
         "derivedUri": "Add square brackets around: uri(deployment().properties.templateLink.uri, 'vm.json') ",
-        "vmUri": "https://raw.githubusercontent.com/richeney/arm/master/lab7/vm.json"
+        "vmUri": "https://raw.githubusercontent.com/irekromaniuk/arm/master/lab7/vm.json"
     },
     "resources": [
         {

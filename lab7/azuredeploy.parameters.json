@@ -6,13 +6,13 @@
           "value": ""
       },
       "adminUsername": {
-        "value": "richeney"
+        "value": "azureuser"
       },
       "keyVaultName": {
-        "value": "richeneyKeyVault"
+        "value": "keyniuk"
       },
       "secretName": {
-        "value": "ubuntuDefaultPassword"
+        "value": "password"
       },
       "vnetName": {
           "value": "ubuntuVnet"
